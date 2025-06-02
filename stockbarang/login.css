@@ -1,0 +1,76 @@
+/* =============== LOGIN PAGE STYLING =============== */
+
+/* Body khusus untuk halaman login */
+.login-body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center; /* Center horizontal */
+    align-items: center;     /* Center vertikal */
+    height: 100vh;
+    margin: 0;
+}
+
+/* Kontainer untuk form login */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+/* Box form login */
+.login-form {
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #2c3e50;
+}
+
+/* Pastikan style untuk .form-group dan .btn sudah ada */
+/* Jika belum ada, Anda bisa gunakan yang ini */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Mengatur agar tombol login full-width */
+.login-form .btn {
+    width: 100%;
+    background-color: #3498db; /* Warna primer */
+    font-weight: bold;
+    font-size: 16px;
+}
+.login-form .btn:hover {
+    background-color: #2980b9; /* Warna primer saat di-hover */
+}
+
+/* Style untuk pesan error */
+.error-message {
+    background-color: #e74c3c20; /* Merah dengan transparansi */
+    color: #c0392b;
+    padding: 12px;
+    border: 1px solid #e74c3c50;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    text-align: center;
+}
